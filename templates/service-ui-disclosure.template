@@ -1,0 +1,7 @@
+<!-- PPL-S Disclosure Template -->
+<!-- Place this link in your Agent Service's UI (e.g., footer, "About" page, or initial greeting) -->
+
+<a href="/ppl-source" target="_blank">Prompt Source</a>
+
+<!-- Or in the Agent's initial response: -->
+"I am powered by open Prompt Source. You can view my logic and instructions here: [Link to Prompt Source]"
