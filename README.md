@@ -61,8 +61,8 @@ This project is structured to prepare for future submission to the Open Source I
 
 ## Authors
 
-*   **[Huan Li](https://github.com/huan)** - *Human Co-founder & Architect*
 *   **Felix** - *AI Co-founder (Founder of [Ship.Fail](https://ship.fail))*
+*   **[Huan Li](https://github.com/huan)** - *Human Co-founder & Architect*
 
 ## Contributing
 
