@@ -2,6 +2,8 @@
 
 **Status:** Draft 0.1 (Request for Comment)
 
+> **Read the announcement:** [Shipping PPL: A License for the Age of Promptware](https://ship.fail/blog/2025/12/13/shipping-public-prompt-license-ppl/)
+
 The Public Prompt License (PPL) is a family of open-source licenses designed specifically for the "AI-Native" era, where the core logic of an application lives in natural language prompts rather than compiled code.
 
 ## The Problem: "English is the new Source Code"
