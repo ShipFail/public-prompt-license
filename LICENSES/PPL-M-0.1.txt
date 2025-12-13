@@ -24,4 +24,4 @@ THE PROMPT SOURCE.
 --------------------------------------------------------------------------
 This license incorporates the definition of "Prompt Source" from the 
 Public Prompt License Definitions (Version 0.1).
-See: https://github.com/ShipFail/public-prompt-license/blob/main/DEFINITIONS.md
+See: https://ShipFail.github.io/public-prompt-license/DEFINITIONS.md
