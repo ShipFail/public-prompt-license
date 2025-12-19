@@ -30,7 +30,7 @@ It separates the *cognitive logic* (the prompts) from the *infrastructure* (the 
 
 ## Definitions
 
-All PPL licenses rely on a shared set of definitions found in [DEFINITIONS.md](DEFINITIONS.md).
+All PPL licenses rely on a shared set of definitions found in [DEFINITIONS-0.2.md](DEFINITIONS-0.2.md).
 This ensures that "Prompt Source" is consistently defined as the *narrative and cognitive core* of the agent, explicitly excluding the underlying inference engine (vLLM, Ollama, etc.).
 
 ## How to Apply

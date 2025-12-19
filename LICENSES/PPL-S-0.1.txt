@@ -269,4 +269,4 @@ END OF TERMS AND CONDITIONS
 --------------------------------------------------------------------------
 This license incorporates the definition of "Prompt Source" and "Source Code" from the 
 Public Prompt License Definitions (Version 0.1).
-See: https://ShipFail.github.io/public-prompt-license/DEFINITIONS.md
+See: https://ShipFail.github.io/public-prompt-license/DEFINITIONS-0.1.md

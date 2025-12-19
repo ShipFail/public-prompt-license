@@ -5,13 +5,13 @@ Copyright (c) [Year] [Copyright Holder]
 
 This project is licensed under the Apache License, Version 2.0.
 
-1. INCORPORATION BY REFERENCE
-   This license incorporates the terms and conditions of the Apache License, Version 2.0
-   available at: https://www.apache.org/licenses/LICENSE-2.0
+1. STANDARD TERMS
+   This project is licensed under the Apache License, Version 2.0 (SPDX: Apache-2.0).
+   Standard License Text: https://www.apache.org/licenses/LICENSE-2.0
 
 2. SCOPE EXTENSION
    The terms "Source" form and "Object" form in the Apache License are hereby 
    extended to include "Prompt Source" and "Compiled Form" respectively, 
    as defined in the Public Prompt License Definitions (Version 0.2).
 
-   See Definitions: https://shipfail.github.io/public-prompt-license/DEFINITIONS.md
+   Definitions: https://shipfail.github.io/public-prompt-license/DEFINITIONS-0.2.md

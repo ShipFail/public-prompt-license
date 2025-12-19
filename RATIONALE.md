@@ -10,7 +10,7 @@ While this definition is technically broad, in practice, it has 40 years of case
 
 In an AI Agent, the "logic" is often defined entirely in English (System Prompts, Few-Shot Examples).
 *   **Ambiguity:** If I release an agent under AGPL v3, and you access it over a network, must I provide the *Python wrapper* (which is trivial) or the *System Prompt* (which contains the real value)?
-*   **The PPL Solution:** PPL v0.2 solves this by **incorporating the standard license by reference** and adding a **Scope Extension**. It explicitly defines **"Prompt Source"** (see `DEFINITIONS.md`) and states that for the purposes of the license, "Source Code" includes "Prompt Source".
+*   **The PPL Solution:** PPL v0.2 solves this by **incorporating the standard license by reference** and adding a **Scope Extension**. It explicitly defines **"Prompt Source"** (see `DEFINITIONS-0.2.md`) and states that for the purposes of the license, "Source Code" includes "Prompt Source".
 
 ### 1.2 The "Service" Gap (AGPL vs. PPL-S)
 The GNU Affero GPL (AGPL) was designed to close the "ASP Loophole" (Application Service Provider). It requires source disclosure when users interact with the software over a network.
