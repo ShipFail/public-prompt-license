@@ -38,7 +38,7 @@ You are...
 ```yaml
 ---
 title: "My Agent Persona"
-license: "PPL-S-0.1"
+license: "PPL-S-0.2"
 copyright: "2025 Your Name"
 ---
 
@@ -63,13 +63,12 @@ If you build a web UI for your agent, add a footer link:
 
 ## 5. Mixed Projects (Code + Prompts)
 
-If your repository contains both Python/JS code *and* Prompts:
+**Recommended: Single License**
 
-**Scenario A: Dual Licensing (Recommended)**
-*   Apply **MIT/Apache** to the `src/` directory (the code).
-*   Apply **PPL** to the `prompts/` directory (the logic).
-*   Mention this clearly in your `README.md`.
+Since PPL v0.2 is simply a wrapper around standard licenses (MIT/Apache/AGPL), you can apply it to your entire repository.
 
-**Scenario B: Single License**
-*   You *can* use PPL for the whole repo, but be aware that PPL is new and standard tools (like `npm` or `pip`) might not recognize it yet.
-*   For PPL-S, this means your Python code is *also* covered by the reciprocal obligation (which is usually fine, as it acts like AGPL).
+*   **PPL-M:** Covers your code as MIT and your prompts as MIT.
+*   **PPL-A:** Covers your code as Apache 2.0 and your prompts as Apache 2.0.
+*   **PPL-S:** Covers your code as AGPL v3 and your prompts as AGPL v3.
+
+This is the simplest and most robust way to license an AI Agent project.

@@ -3,15 +3,17 @@
 ## General
 
 ### Q: Why do we need a license for prompts? Can't I just use MIT?
-**A:** You can use MIT, but MIT was written for "Software". In the AI era, the line between "Software" (the engine) and "Content" (the prompt) is blurry. PPL clarifies that the **Prompt Source** is the thing being licensed. Also, standard MIT doesn't cover the "Service Loophole" (running an agent as an API), which PPL-S addresses.
+**A:** **Yes!** PPL-M v0.2 *is* the MIT license, just with a clause that explicitly includes Prompts. Standard MIT was written for "Software", and it's ambiguous if it covers prompts. PPL removes that ambiguity.
 
 ### Q: Is PPL OSI-Approved?
-**A:** Not yet. PPL is currently a **Draft (v0.1)**. We have designed it to align with the Open Source Definition (OSD) and plan to submit it for review after gathering community feedback and pilot usage.
+**A:** Not yet. PPL is currently a **Draft (v0.2)**. Since PPL v0.2 is just a wrapper around OSI-approved licenses (MIT, Apache, AGPL), we believe it is fully compliant with the Open Source Definition (OSD).
 
 ## Scope & Definitions
 
 ### Q: Does PPL-S require me to open-source my backend code (Python/Go/Rust)?
-**A:** **No.** PPL-S explicitly excludes "Underlying Software" (inference engines, OS, network stack) from the disclosure requirement. You only need to share the **Prompt Source** (the cognitive logic).
+**A:** **Yes, for your application code.** PPL v0.2 explicitly includes "Source Code" (TypeScript, Python, etc.) in its scope.
+*   **Included:** Your agent's "glue code", tool implementations, and business logic.
+*   **Excluded:** The "Underlying Software" infrastructure (vLLM, Ollama, OS, Drivers) is still explicitly excluded. You don't need to open-source the platform, just your agent.
 *   *Exception:* If your Python code contains "hardcoded prompts" that are essential to the agent's persona, those specific strings are considered Prompt Source.
 
 ### Q: What about my API keys and secrets?

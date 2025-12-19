@@ -33,6 +33,6 @@ This document outlines how the Public Prompt License (PPL) family interacts with
 
 We are in the process of submitting PPL to the SPDX registry. Until then, use the following identifiers in your `LICENSE` headers:
 
-*   `License-Ref-PPL-M-0.1`
-*   `License-Ref-PPL-A-0.1`
-*   `License-Ref-PPL-S-0.1`
+*   `License-Ref-PPL-M-0.2`
+*   `License-Ref-PPL-A-0.2`
+*   `License-Ref-PPL-S-0.2`

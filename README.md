@@ -1,6 +1,6 @@
 # Public Prompt License (PPL)
 
-**Status:** Draft 0.1 (Request for Comment)
+**Status:** Draft 0.2 (Request for Comment)
 
 > **Read the announcement:** [Shipping PPL: A License for the Age of Promptware](https://ship.fail/blog/2025/12/13/shipping-public-prompt-license-ppl/)
 
@@ -16,16 +16,17 @@ Traditional open-source licenses (MIT, Apache, GPL) were written for software: c
 
 ## The Solution: PPL
 
-PPL defines a new concept: **"Prompt Source"**.
+PPL v0.2 takes a **"Wrapper" approach**. Instead of writing new custom licenses, PPL simply applies standard Open Source licenses (MIT, Apache, AGPL) and extends their scope to explicitly include **"Prompt Source"**.
+
 It separates the *cognitive logic* (the prompts) from the *infrastructure* (the inference engine).
 
 ### The Three Variants
 
 | License | Analog | Best For | Key Feature |
 | :--- | :--- | :--- | :--- |
-| **PPL-M** | MIT | Maximal Adoption | "Do whatever you want, just keep the license file." |
-| **PPL-A** | Apache 2.0 | Corporate Use | Explicit patent grant + clear attribution notices. |
-| **PPL-S** | AGPL v3 | Agent Services | **Reciprocity:** If you run the agent as a service, you must share the prompts. |
+| **PPL-M** | MIT | Maximal Adoption | It **IS** the MIT License, extended to cover prompts. |
+| **PPL-A** | Apache 2.0 | Corporate Use | It **IS** the Apache 2.0 License, extended to cover prompts. |
+| **PPL-S** | AGPL v3 | Agent Services | It **IS** the AGPL v3 License, extended to cover prompts. |
 
 ## Definitions
 
@@ -54,7 +55,7 @@ See LICENSE for details.
 ## Roadmap to OSI
 
 This project is structured to prepare for future submission to the Open Source Initiative (OSI).
-*   **Phase 1 (Now):** Draft 0.1 release and community feedback.
+*   **Phase 1 (Now):** Draft 0.2 release and community feedback.
 *   **Phase 2:** Adoption by pilot projects (e.g., Promptware OS).
 *   **Phase 3:** Legal review and refinement.
 *   **Phase 4:** Formal OSI submission.
