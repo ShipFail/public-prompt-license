@@ -24,9 +24,13 @@ structured data, and configuration files that define the behavior, persona,
 logic, and capabilities of an AI agent, as defined in the Public Prompt
 License Definitions (Version 0.1).
 
+"Source Code" means the human-readable software source code, including but
+not limited to scripts, libraries, and tool implementations, that is not
+included in the definition of Prompt Source.
+
 "Corresponding Prompt Source" for a work in Compiled Form means all the
-Prompt Source needed to generate, install, and (for an executable work)
-run the Compiled Form and to modify the Prompt Source, including scripts
+Prompt Source and Source Code needed to generate, install, and (for an executable work)
+run the Compiled Form and to modify the Prompt Source and Source Code, including scripts
 to control those activities. However, it does not include the work's
 System Libraries, or general-purpose tools or generally available free
 programs which are used unmodified in performing those activities but
@@ -222,7 +226,8 @@ some standard or customary means of facilitating copying of software.
 This Corresponding Prompt Source shall include the Prompt Source defined
 in the Public Prompt License Definitions (Version 0.1), including the
 Narrative Core, Cognitive Architecture, and Interface Definitions active
-for that interaction.
+for that interaction, as well as any Source Code required to run the
+Agent Service.
 
 This obligation does not extend to the underlying software infrastructure,
 inference engines, hardware drivers, or the implementation code of tools,
@@ -262,6 +267,6 @@ BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 END OF TERMS AND CONDITIONS
 
 --------------------------------------------------------------------------
-This license incorporates the definition of "Prompt Source" from the 
+This license incorporates the definition of "Prompt Source" and "Source Code" from the 
 Public Prompt License Definitions (Version 0.1).
 See: https://ShipFail.github.io/public-prompt-license/DEFINITIONS.md
