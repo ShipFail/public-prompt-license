@@ -1,0 +1,17 @@
+Public Prompt License - MIT Variant (PPL-M)
+Version 0.2
+
+Copyright (c) [Year] [Copyright Holder]
+
+This project is licensed under the MIT License.
+
+1. INCORPORATION BY REFERENCE
+   This license incorporates the terms and conditions of the MIT License 
+   available at: https://opensource.org/licenses/MIT
+
+2. SCOPE EXTENSION
+   The terms "Software" and "Source Code" in the MIT License are hereby 
+   extended to include "Prompt Source" and "Source Code" as defined in 
+   the Public Prompt License Definitions (Version 0.2).
+
+   See Definitions: https://shipfail.github.io/public-prompt-license/DEFINITIONS.md

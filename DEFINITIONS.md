@@ -1,7 +1,7 @@
 # Public Prompt License (PPL) Definitions
 
-**Version:** 0.1
-**Date:** 2025-12-13
+**Version:** 0.2
+**Date:** 2025-12-19
 
 These definitions are incorporated by reference into the Public Prompt License family (PPL-M, PPL-A, PPL-S). They are designed to provide clarity on what constitutes the "source code" of an AI agent, distinct from the underlying software infrastructure.
 
@@ -20,7 +20,7 @@ These definitions are incorporated by reference into the Public Prompt License f
 *   **Underlying Software:** The source code of the inference engine (e.g., vLLM, llama.cpp), the host operating system, the network stack, or the container orchestration platform.
 *   **Model Weights:** The binary parameters of the foundation model itself.
 *   **User Session Data:** Inputs provided by the end-user during a specific interaction session.
-*   **Tool Implementation Code:** The underlying executable code (e.g., Python, JavaScript, Rust) that implements the logic of a tool, *unless* that code contains embedded natural language instructions that substantially alter the agent's persona or reasoning.
+*   **Tool Implementation Code:** The underlying executable code (e.g., TypeScript, Python, Rust) that implements the logic of a tool, *unless* that code contains embedded natural language instructions that substantially alter the agent's persona or reasoning.
 
 ## 2. Agent Service
 
@@ -37,3 +37,7 @@ For the purpose of the PPL-S (Service) license, the obligation to share Correspo
 
 **Scope Limitation (Infrastructure Exclusion):**
 The obligation to provide Corresponding Prompt Source does **not** extend to the underlying software infrastructure, inference engines, hardware drivers, or the implementation code of tools, provided that such software is not required to understand or modify the *cognitive behavior* of the agent defined in the Prompt Source.
+
+## 4. Source Code
+
+**"Source Code"** means the human-readable software source code, including but not limited to scripts, libraries, and tool implementations (e.g., TypeScript, Python, Rust), that is distinct from the Prompt Source.
